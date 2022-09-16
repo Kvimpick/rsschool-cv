@@ -3,7 +3,7 @@
 - **Location**: Lutsk, Ukraine
 - **Phone**: +38(096)-867-43-67
 - **Email**: galaydataras@gmail.com
-- **Github**: [Kvimpick](url)
+- **Github**: [Kvimpick](https://github.com/Kvimpick)
 ## About me
 I’m a self-taught front-end developer. I’m learning React after my main work.
 I like to create UI, reusable components and contemplate the result of my work.
