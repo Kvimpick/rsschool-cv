@@ -11,6 +11,10 @@ body {
   margin: 0 auto;
 }
 header {
+  height: 780px;
+  background-image: url('./../../assets/images/Giant\ Panda.png');
+}
+.navi {
   height: 80px;
   background-color: #000;
   color: #fff;
@@ -51,6 +55,8 @@ li {
 }
 li:hover {
   cursor: pointer;
+  color: orange;
+  transition: 0.2s linear all;
 }
 .copywrite {
   display: inline-block;
@@ -64,4 +70,52 @@ a {
   position: relative;
   top: 29px;
   right: 220px;
+}
+.circle {
+  width: 465px;
+  height: 465px;
+  border-radius: 50%;
+  background-color: orange;
+  position: absolute;
+  left: 807px;
+  top: 97px;
+}
+header .about {
+  width: 500px;
+  height: 400px;
+  position: absolute;
+  font-size: 106px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 700;
+  top: 166px;
+  left: 880px;
+  line-height: 79px;
+}
+header .about span {
+  color: #ffee2e;
+}
+.btn {
+  width: 298px;
+  height: 54px;
+  background-color: orange;
+  border-radius: 25px;
+  font-size: 16px;
+  color: #fff;
+  text-transform: uppercase;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn:hover {
+  cursor: pointer;
+  background-color: #ff8c00;
+  transition: 0.2s linear all;
+}
+header .btn {
+  position: absolute;
+  top: 626px;
+  left: 983px;
 }
