@@ -132,6 +132,7 @@ section {
   font-weight: 400;
   font-size: 16px;
   float: left;
+  margin-bottom: 180px;
 }
 .backstage img {
   margin-right: 87px;
@@ -143,7 +144,7 @@ section {
   font-weight: 400;
   margin-bottom: 20px;
 }
-.backstage p {
+.backstage p span {
   margin-bottom: 54px;
   line-height: 23px;
 }
@@ -156,4 +157,102 @@ img.flower1 {
   position: absolute;
   margin-left: 16px;
   margin-top: 16px;
+}
+.pets {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  justify-content: center;
+  gap: 30px 20px;
+  margin-bottom: 80px;
+}
+.pets article > img {
+  width: 100%;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+.pets h4 {
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22px;
+  margin-top: 5px;
+}
+.pets p {
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 18px;
+  margin-bottom: 14px;
+}
+.pet-info {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 16px;
+}
+.pets article {
+  border: 1px solid orange;
+  border-radius: 10px;
+}
+.pet-icon img {
+  margin-right: 12px;
+  margin-top: 10px;
+}
+.arrow-left,
+.arrow-right {
+  width: 62px;
+  height: 62px;
+  border-radius: 50%;
+  background-color: orange;
+  display: inline-block;
+}
+.animals {
+  position: relative;
+}
+.arrow-left {
+  position: relative;
+  top: 482px;
+  left: -80px;
+}
+.arrow-right {
+  position: relative;
+  top: 482px;
+  left: 1115px;
+}
+.arrow-left img,
+.arrow-right img {
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+.arrow-left img {
+  left: 22px;
+}
+.arrow-right img {
+  right: 22px;
+}
+.arrow-left:hover,
+.arrow-right:hover {
+  cursor: pointer;
+  background-color: #ff8c00;
+  transition: 0.2s linear all;
+}
+.animals article:hover {
+  cursor: pointer;
+  transition: 0.2s linear all;
+  opacity: 0.8;
+}
+.scale {
+  transition: 1s;
+}
+.scale:hover {
+  transform: scale(1.04);
+}
+img.flower2 {
+  position: relative;
+  top: -362px;
+}
+img.flower3 {
+  position: relative;
+  top: -361px;
+  left: 934px;
 }
