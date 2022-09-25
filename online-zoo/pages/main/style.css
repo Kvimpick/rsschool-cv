@@ -108,6 +108,7 @@ header .about span {
   display: flex;
   justify-content: center;
   align-items: center;
+  border: none;
 }
 .btn:hover {
   cursor: pointer;
@@ -255,4 +256,114 @@ img.flower3 {
   position: relative;
   top: -361px;
   left: 934px;
+}
+.pick-feed-friend {
+  background: linear-gradient(
+      315.75deg,
+      rgba(254, 210, 144, 0.7) 30.06%,
+      #febdab 100.95%,
+      rgba(254, 210, 144, 0.7) 106.36%
+    ),
+    linear-gradient(
+      315.75deg,
+      rgba(254, 189, 171, 0.74) 30.06%,
+      rgba(243, 169, 248, 0.66) 50.74%,
+      #e0d8f0 80.49%,
+      #eaf7fe 127.9%,
+      #eaf7fe 149.54%
+    ),
+    linear-gradient(
+      315.75deg,
+      rgba(254, 189, 171, 0.74) 30.06%,
+      rgba(243, 169, 248, 0.66) 50.74%,
+      #e0d8f0 80.49%,
+      #eaf7fe 127.9%,
+      #eaf7fe 149.54%
+    );
+  opacity: 0.9;
+}
+.animal {
+  height: 1924px;
+}
+.pick-friend {
+  background: rgba(253, 253, 255, 0.52);
+  backdrop-filter: blur(2px);
+  border-radius: 20px;
+  padding: 41px 100px 59px 100px;
+  color: #333b41;
+}
+.pick-friend h2 {
+  text-align: center;
+  color: #fe9013;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 58px;
+  margin-bottom: 30px;
+  margin-top: 60px;
+}
+.pick-friend p:nth-child(2) {
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+.pick-friend p:nth-child(3) {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.pick-friend p:nth-child(4) {
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 60px;
+}
+.pick-friend a {
+  color: #333b41;
+  text-decoration: underline;
+  text-decoration-color: #fe9013;
+}
+.pick-friend h3 {
+  font-weight: 400;
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.pick-feed-friend {
+  padding-top: 69px;
+  padding-bottom: 100px;
+}
+.feed-friend {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+.item {
+  width: 168px;
+}
+.img {
+  height: 168px;
+  background-color: #fff;
+  border: 1px solid #fe9013;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+.pick-friend .item p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+}
+.arrow1,
+.arrow2 {
+  position: relative;
+  top: 191px;
+}
+.arrow1 {
+  left: 283px;
+}
+.arrow2 {
+  left: 530px;
+}
+a.non-decor {
+  text-decoration: none;
 }
