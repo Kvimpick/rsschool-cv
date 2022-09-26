@@ -31,10 +31,10 @@ h1 {
   width: 82px;
   height: 52px;
   border: 1px solid #fff;
-  position: absolute;
   top: 14px;
   left: 220px;
   line-height: 1.2;
+  position: relative;
 }
 .logo img {
   position: relative;
@@ -43,56 +43,54 @@ h1 {
 }
 ul {
   display: inline-block;
-  position: absolute;
   left: 365px;
-  top: 29px;
+  position: relative;
+  top: -49px;
 }
 li {
   display: inline-block;
   margin-right: 58px;
 }
 .active {
-  color: orange;
+  color: #f9804b;
 }
 li:hover {
   cursor: pointer;
-  color: orange;
+  color: #e47209;
   transition: 0.2s linear all;
-}
-.copywrite {
-  display: inline-block;
 }
 a {
   text-decoration: none;
   color: #fff;
 }
 .copywrite {
+  display: inline-block;
   float: right;
   position: relative;
-  top: 29px;
+  top: -69px;
   right: 220px;
 }
 .circle {
   width: 465px;
   height: 465px;
   border-radius: 50%;
-  background-color: orange;
-  position: absolute;
+  background-color: #f9804b;
   left: 807px;
-  top: 97px;
+  position: relative;
+  top: 12px;
 }
 header .about {
   width: 500px;
   height: 400px;
-  position: absolute;
   font-size: 106px;
   text-align: center;
   text-transform: uppercase;
   color: #fff;
   font-weight: 700;
-  top: 166px;
   left: 880px;
   line-height: 79px;
+  position: relative;
+  top: -377px;
 }
 header .about span {
   color: #ffee2e;
@@ -100,7 +98,7 @@ header .about span {
 .btn {
   width: 298px;
   height: 54px;
-  background-color: orange;
+  background-color: #f9804b;
   border-radius: 25px;
   font-size: 16px;
   color: #fff;
@@ -113,13 +111,13 @@ header .about span {
 }
 .btn:hover {
   cursor: pointer;
-  background-color: #ff8c00;
+  background-color: #e47209;
   transition: 0.2s linear all;
 }
 header .btn {
-  position: absolute;
-  top: 626px;
-  left: 983px;
+  position: relative;
+  top: -320px;
+  left: 355px;
 }
 section {
   width: 1160px;
@@ -204,7 +202,7 @@ img.flower1 {
   width: 62px;
   height: 62px;
   border-radius: 50%;
-  background-color: orange;
+  background-color: #f9804b;
   display: inline-block;
 }
 .animals {
@@ -235,7 +233,7 @@ img.flower1 {
 .arrow-left:hover,
 .arrow-right:hover {
   cursor: pointer;
-  background-color: #ff8c00;
+  background-color: #e47209;
   transition: 0.2s linear all;
 }
 .animals article:hover {
@@ -297,7 +295,7 @@ img.flower3 {
 }
 .pick-friend h2 {
   text-align: center;
-  color: #fe9013;
+  color: #f9804b;
   font-size: 48px;
   font-weight: 400;
   line-height: 58px;
@@ -450,6 +448,103 @@ a.non-decor {
   position: relative;
   top: -300px;
 }
-footer {
+.foo {
   background-color: #000;
+}
+footer {
+  width: 1160px;
+  height: 443px;
+  margin: 0 auto;
+}
+.flexible {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding-top: 40px;
+}
+.flexible .logo {
+  position: relative;
+  left: 0px;
+  margin-bottom: 68px;
+}
+.flexible form {
+  margin-left: 10px;
+}
+.flexible .btn {
+  margin-left: 0;
+  border-radius: 5px;
+  margin-bottom: 44px;
+}
+.social .circle-item {
+  width: 26px;
+  height: 26px;
+  background-color: #c4c4c4;
+  opacity: 0.5;
+  border-radius: 50%;
+  display: inline-block;
+}
+.social .circle-item img {
+  position: relative;
+  top: 5px;
+  left: 5px;
+  margin-right: 10px;
+}
+.network {
+  margin-bottom: 10px;
+  line-height: 22px;
+}
+.footer-item nav {
+  position: relative;
+  color: #fff;
+}
+.footer-item ul {
+  top: 0;
+  left: 0;
+}
+.footer-item li {
+  display: inline-block;
+  font-size: 16px;
+  line-height: 22px;
+  margin-right: 58px;
+}
+.footer-item li:last-child {
+  margin-right: 0;
+}
+.flexible .end {
+  align-self: end;
+  padding-bottom: 15px;
+}
+.flexible label {
+  font-size: 24px;
+  font-weight: 400;
+  color: #fff;
+}
+.flexible .lab {
+  margin-bottom: 14px;
+}
+.flexible input {
+  width: 228px;
+  height: 42px;
+  color: #bdbdbd;
+  background: #000;
+  border: 1px solid orange;
+  padding: 10px;
+}
+.flexible form button {
+  background-color: #c4c4c4;
+  color: green;
+  padding: 10px 39px;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+.flexible form button:hover {
+  cursor: pointer;
+  background-color: lightgrey;
+  transition: 0.2s linear all;
+}
+.flexible .designed {
+  margin-top: 223px;
+  margin-left: 141px;
+  font-weight: 100;
+  color: #fff;
+  line-height: 20px;
 }
