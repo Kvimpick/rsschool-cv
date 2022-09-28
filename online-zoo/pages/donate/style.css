@@ -328,10 +328,12 @@ input[type='number'] {
   margin-right: 10px;
 }
 .check label:nth-child(2) {
-  margin-right: 50px;
+  margin-right: 120px;
 }
 .check {
   margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
 }
 main form .btn {
   margin-bottom: 30px;
@@ -348,10 +350,10 @@ input[name='field'] + label {
   height: 20px;
   border: 2px solid #fe9013;
   border-radius: 50%;
-  margin-left: 10px;
+  margin-right: 40px;
 }
 input[name='field']:checked + label {
-  background: green;
+  background: #fe9013;
 }
 #saveForm {
   pointer-events: none;
@@ -363,12 +365,9 @@ input[name='field']:checked + label ~ #saveForm {
   background: green;
   color: #fff;
 }
-
-/***************************/
-/***************************/
-/***************************/
-/***************************/
-
+.check span {
+  margin-left: 22px;
+}
 .foo {
   background-color: #000;
 }
