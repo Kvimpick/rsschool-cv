@@ -594,6 +594,69 @@ footer {
     line-height: 75%;
     top: -333px;
   }
+  img.flower1 {
+    display: none;
+  }
+  section {
+    width: 1000px;
+    margin: 0 auto;
+  }
+  .backstage img {
+    margin-right: 31px;
+    width: 455px;
+    height: 408px;
+  }
+  .backstage {
+    margin-left: 30px;
+    margin-right: 30px;
+    align-items: flex-start;
+    margin-top: 109px;
+    margin-bottom: 0px;
+  }
+  .backstage p {
+    margin-bottom: 54px;
+  }
+  .pets {
+    gap: 92px 29px;
+  }
+  .arrow-left {
+    top: 457px;
+    left: 343px;
+  }
+  .arrow-right {
+    top: 457px;
+    left: 528px;
+  }
+  .animal {
+    height: auto;
+  }
+  img.flower2 {
+    top: 0px;
+    height: 202px;
+  }
+  img.flower3 {
+    top: 0px;
+    left: 499px;
+    height: 275px;
+  }
+  .pick-friend {
+    width: 940px;
+  }
+  .pick-feed-friend {
+    padding-top: 30px;
+    padding-bottom: 50px;
+  }
+  .feed-friend {
+    justify-content: space-between;
+  }
+  .arrow1 {
+    left: 192px;
+  }
+  .arrow2 {
+    left: 400px;
+  }
+  .pick-friend p:nth-child(4) {
+    margin-bottom: 0px;
 }
 @media screen and (max-width: 999px) {
   .container {
