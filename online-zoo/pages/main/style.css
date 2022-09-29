@@ -631,11 +631,11 @@ footer {
     height: auto;
   }
   img.flower2 {
-    top: 0px;
+    top: 4px;
     height: 202px;
   }
   img.flower3 {
-    top: 0px;
+    top: 4px;
     left: 499px;
     height: 275px;
   }
@@ -645,6 +645,7 @@ footer {
   .pick-feed-friend {
     padding-top: 30px;
     padding-bottom: 50px;
+    margin-bottom: 100px;
   }
   .feed-friend {
     justify-content: space-between;
@@ -658,6 +659,64 @@ footer {
   .pick-friend p:nth-child(4) {
     margin-bottom: 0px;
 }
+.people{
+      grid-template-columns: 298px 289px 1fr;
+}
+.people .items:last-child{
+  display: none;
+}
+.testimonials button{
+  margin-bottom: 140px;
+}
+.line{
+  margin-bottom: 52px;
+}
+.leave-right{
+  height: 320px;
+  top: -235px;
+}
+.foo{
+  padding: 40px 18px 50px 43px;
+  height: 443px;
+}
+.flexible{
+  padding-top: 0;
+  grid-template-columns: 333px 333px 333px;
+}
+footer{
+  width: 1000px;
+  height: auto;
+  width: auto;
+}
+.flexible .designed{
+      margin-top: 189px;
+    margin-left: 27px;
+}
+.footer-item li{
+  margin-right: 44px;
+}
+.social .network:last-child{
+  margin-bottom: 0;
+}
+.footer-item form{
+  position: relative;
+  right: 113px;
+}
+.footer-item form button{
+  position: relative;
+  left: 227px;
+    bottom: 40px;
+}
+.flexible .end{
+  position: relative;
+  right: 50px;
+  padding-bottom: 0;
+}
+.logo img{
+  top: -23px;
+  left: 8px;
+}
+
 @media screen and (max-width: 999px) {
   .container {
     width: 640px;
