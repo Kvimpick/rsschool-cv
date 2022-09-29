@@ -492,6 +492,15 @@ footer {
   margin-bottom: 10px;
   line-height: 22px;
 }
+.footer-item .logo span,
+.footer-item .logo div {
+  font-size: 20px;
+  font-weight: 400;
+}
+.footer-item .logo div {
+  display: inline-block;
+  margin-left: 12px;
+}
 .footer-item nav {
   position: relative;
   color: #fff;
@@ -547,4 +556,54 @@ footer {
   font-weight: 100;
   color: #fff;
   line-height: 20px;
+}
+
+@media screen and (max-width: 1599px) {
+  .container {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  header {
+    height: 584px;
+    background-position: top;
+    background-size: cover;
+  }
+  header .btn {
+    left: -330px;
+    top: -370px;
+  }
+  header .logo {
+    left: 30px;
+  }
+  ul {
+    left: 175px;
+  }
+  .copywrite {
+    top: -71px;
+    right: 30px;
+  }
+  .circle {
+    left: 465px;
+    top: -11px;
+    width: 367px;
+    height: 367px;
+  }
+  header .about {
+    left: 487px;
+    font-size: 85px;
+    line-height: 75%;
+    top: -333px;
+  }
+}
+@media screen and (max-width: 999px) {
+  .container {
+    width: 640px;
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 639px) {
+  .container {
+    width: 320px;
+    margin: 0 auto;
+  }
 }
