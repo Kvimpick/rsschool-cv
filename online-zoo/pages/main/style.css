@@ -51,6 +51,12 @@ li {
   display: inline-block;
   margin-right: 58px;
 }
+#menu-toggle{
+  display: none;
+}
+  ul li:last-child{
+    display: none;
+  }
 .active {
   color: #f9804b;
 }
@@ -67,7 +73,7 @@ a {
   display: inline-block;
   float: right;
   position: relative;
-  top: -69px;
+  top: -49px;
   right: 220px;
 }
 .circle {
@@ -578,8 +584,14 @@ footer {
   ul {
     left: 175px;
   }
+  ul li:last-child{
+    display: none;
+  }
+  #menu-toggle{
+  display: none;
+}
   .copywrite {
-    top: -71px;
+    top: -49px;
     right: 30px;
   }
   .circle {
@@ -719,13 +731,167 @@ footer{
 
 @media screen and (max-width: 999px) {
   .container {
-    width: 640px;
+    max-width: 640px;
     margin: 0 auto;
   }
+    header {
+    height: 373px;
+    background-position: top;
+    background-size: cover;
+  }
+  .logo{
+      width: 47px;
+      height: 29px;
+      border: none;
+  }
+  h1{
+    font-size: 12px;
+  }
+  header::after{
+    content: '';
+    width: 640px;
+    height: 34px;
+    background-color: #000;
+  }
+  header .logo{
+    left: 20px;
+    top: 0;
+  }
+.copywrite{
+  display: none;
 }
+  .circle {
+    position: relative;
+    left: 330px;
+    top: 44px;
+    width: 237px;
+    height: 237px;
+  }
+    header .about {
+    width: 255px;
+    top: -156px;
+    left: 362px;
+    font-size: 54px;
+    line-height: 75%;
+  }
+  header .btn{
+    left: -151px;
+    top: -358px;
+  }
+
+/***************************/
+
+.top-nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #00baf0;
+  background: #000;
+  color: #fff;
+  height: 34px;
+  position: fixed;
+  width: 640px;
+  z-index: 1;
+}
+
+.menu > li {
+  margin: 0 1rem;
+  overflow: hidden;
+}
+
+.menu-button-container {
+  display: none;
+  height: 100%;
+  width: 30px;
+  cursor: pointer;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+}
+#menu-toggle {
+  display: none;
+}
+.menu-button,
+.menu-button::before,
+.menu-button::after {
+  display: block;
+  background-color: #fff;
+  position: absolute;
+  height: 4px;
+  width: 30px;
+  transition: transform 400ms cubic-bezier(0.23, 1, 0.32, 1);
+  border-radius: 2px;
+}
+.menu-button::before {
+  content: '';
+  margin-top: -8px;
+}
+.menu-button::after {
+  content: '';
+  margin-top: 8px;
+}
+#menu-toggle:checked + .menu-button-container .menu-button::before {
+  margin-top: 0px;
+  transform: rotate(405deg);
+}
+#menu-toggle:checked + .menu-button-container .menu-button {
+  background: rgba(255, 255, 255, 0);
+}
+#menu-toggle:checked + .menu-button-container .menu-button::after {
+  margin-top: 0px;
+  transform: rotate(-405deg);
+}
+.menu-button-container {
+    display: flex;
+  }
+  .menu {
+    position: absolute;
+    top: -16px;
+    margin-top: 50px;
+    left: auto;
+    right: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 640px;
+  }
+  #menu-toggle ~ .menu li {
+    height: 0;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
+  }
+  #menu-toggle:checked ~ .menu li {
+    border: 1px solid #333;
+    height: 2.5em;
+    padding: 0.5em;
+    transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
+  }
+  .menu > li {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0.5em 0;
+    width: 100%;
+    color: white;
+    background-color: #000;
+    border-radius: 5px;
+  }
+  .menu > li:not(:last-child) {
+    border-bottom: 1px solid #444;
+  }
+
+/***************************/
+
+
+}
+
 @media screen and (max-width: 639px) {
   .container {
-    width: 320px;
+    max-width: 320px;
     margin: 0 auto;
   }
 }
