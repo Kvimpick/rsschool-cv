@@ -728,6 +728,9 @@ footer{
   top: -23px;
   left: 8px;
 }
+.flexible ul li:last-child{
+  display: inline-block;
+}
 
 @media screen and (max-width: 999px) {
   .container {
@@ -890,6 +893,12 @@ section {
     width: 640px;
     margin: 0 auto;
   }
+  header li:last-child{
+    text-align: center;
+  }
+  .back{
+    height: 462px;
+  }
 .backstage{
   margin-top: 60px;
   margin-left: 0;
@@ -914,13 +923,15 @@ section {
   margin-left: 20px;
 }
 img.flower1{
+  position: relative;
   display: inline-block;
   height: 476px;
-  right: 178px;
-  top: 360px;
+  right: -465px;
+  top: -469px;
 }
 .animal{
-  margin-top: 430px;
+  margin-top: 0px;
+  height: 1107px;
 }
 .pets{
   grid-template-columns: 1fr 1fr;
@@ -931,12 +942,12 @@ img.flower1{
   display: none;
 }
 .arrow-left{
-  left: -250px;
+  left: 244px;
   top: 444px;
 }
 .arrow-right{
   top: 444px;
-  left: -227px;
+  left: 269px;
 }
 .animals button{
   margin-bottom: 100px;
@@ -949,9 +960,129 @@ img.flower3{
   left: 331px;
   height: 131px;
 }
-
+.pick-friend{
+  width: 640px; 
+  padding: 10px 20px 60px 20px;
+}
+.pick-feed-friend{
+  padding: 20px 0;
+}
+.pick-friend h2{
+  color: #FE9013;
+  margin-top: 0;
+  font-size: 42px;
+}
+.pick-friend p:nth-child(2){
+  font-size: 22px;
+}
+.arrow1, .arrow2{
+  display: none;
+}
+.green-arrow1{
+    position: relative;
+    left: 140px;
+    top: 98px;
+}
+.green-arrow2{
+  position: relative;
+  top: 98px;
+  left: 262px;
+}
+.pick-friend p:nth-child(2) {
+    font-size: 16px;
+}
+.testimonials h3{
+  margin-top: 60px;
+}
+.people {
+    grid-template-columns: 1fr;
+}
+.testimonials .items{
+  height: auto;
+  margin-bottom: 15px;
+}
+.testimonials .items:nth-child(3){
+  margin-bottom: 40px;
+}
+.line{
+  display: none;
+}
+.testimonials button{
+  margin: 0 auto 80px;
+}
+.leave-right{
+  height: 147px;
+  top: -100px;
+}
+.foo {
+    padding: 12px 20px;
+    height: 258px;
+  }
+.flexible{
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.footer-item .logo span, .footer-item .logo div {
+    font-size: 19px;
+}
+.flexible .logo{
+    border: 1px solid #fff;
+    width: 82px;
+    height: 52px;
+    top: 0px;
+}
+.logo img {
+    top: 0px;
+    left: -60px;
+}
+.network a span{
+  display: none;
+}
+.network{
+  margin-bottom: 0;
+}
+.social{
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  align-items: flex-end;
+  position: relative;
+  left: 302px;
+  bottom: 217px;
+}
+.flexible button{
+  position: relative;
+  bottom: 37px;
+}
+.flexible ul{
+  display: flex;
+  width: 320px;
+}
+.flexible ul li{
+  margin-right: 37px;
+  font-size: 16px;
+  font-weight: 400;
+}
+.flexible .end{
+  align-self: auto;
+  left: -298px;
+  top: 214px;
+  height: 25px;
+}
+ul li:last-child{
+  display: inline-block;
+}
+.footer-item form{
+  display: none;
+}
+.flexible .designed{
+  width: 320px;
+  position: relative;
+  right: 278px;
+  top: 6px;
 }
 
+
+}
 @media screen and (max-width: 639px) {
   .container {
     max-width: 320px;
