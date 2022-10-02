@@ -10,27 +10,30 @@
 <body>
     <div class="container">
         <header>
-            <div class="navi">
+            <div class="navi top-nav">
                 <div class="logo">
                     <a href="./../main/index.html">
                         <h1>PetStory online</h1>
                         <img src='./../../assets/images/bamboo.png'>
                     </a>
                 </div>
-                <nav>
-                    <ul>
-                        <a href="./../main/index.html">
-                            <li>About</li>
-                        </a>
+                <input id="menu-toggle" type="checkbox" />
+                <label class='menu-button-container' for="menu-toggle">
+                    <div class='menu-button'></div>
+                </label>
+                    <ul class="menu">
+                        
+                            <li><a href="./../main/index.html">About</a></li>
+                        
                         
                         <li>Map</li>
                         <li>Zoos</li>
-                        <a href="../donate/index.html">
-                            <li class='active'>Donate</li>
-                        </a>
+                        
+                            <li class='active'><a href="../donate/index.html">Donate</a></li>
+                        
                         <li>Contact us</li>
                     </ul>
-                </nav>
+                
                 <div class="copywrite">
                     <a href='https://www.figma.com/file/jfEFwkXVj1WRq7sUHDr8os/PetStory-online'>Designed by &#169</a>
                 </div>
@@ -102,8 +105,9 @@
             <div class="flexible">
                 <div class="footer-item">
                     <div class="logo">
-                        <a href="#">
-                            <h1>PetStory online</h1>
+                        <a href="#"class="foo-logo">
+                            <span>PetStory</span>
+                            <div>online</div>
                             <img src='./../../assets/images/bamboo.png'>
                         </a>
                     </div>
@@ -112,25 +116,25 @@
                         <div class="network">
                             <a href="https://www.facebook.com/">
                                 <div class='circle-item'><img src="./../../assets/images/facebook.svg" alt='facebook'></div>
-                                Facebook
+                                <span>Facebook</span>
                             </a>
                         </div>
                         <div class="network">
                             <a href="https://twitter.com/">
                                 <div class='circle-item'><img src="./../../assets/images/twitter.svg" alt="twitter"></div>
-                                Twitter
+                                <span>Twitter</span>
                             </a>
                         </div>
                         <div class="network">
                             <a href="https://www.instagram.com/">
                                 <div class='circle-item'><img src="./../../assets/images/insta.svg" alt="instagram"></div>
-                                Instagram
+                                <span>Instagram</span>
                             </a>
                         </div>
                         <div class="network">
                             <a href="https://youtube.com/">
                                 <div class='circle-item'><img src="./../../assets/images/youtube.svg" alt="youtube"></div>
-                                Youtube
+                                <span>Youtube</span>
                             </a>
                         </div>
     
