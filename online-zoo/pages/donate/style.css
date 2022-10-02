@@ -471,20 +471,20 @@ footer {
   color: #fff;
   line-height: 20px;
 }
-#menu-toggle{
+#menu-toggle {
   display: none;
 }
-.foo-logo span{
-    position: relative;
-    left: 10px;
-    top: 5px;
-  }
-  .foo-logo div{
-    display: inline-block;
-    position: relative;
-    left: 18px;
-    top: 5px;
-  }
+.foo-logo span {
+  position: relative;
+  left: 10px;
+  top: 5px;
+}
+.foo-logo div {
+  display: inline-block;
+  position: relative;
+  left: 18px;
+  top: 5px;
+}
 
 @media screen and (max-width: 1599px) {
   .container,
@@ -493,363 +493,503 @@ footer {
     max-width: 1000px;
     margin: 0 auto;
   }
-  section, main{
+  section,
+  main {
     height: auto;
   }
-   header {
+  header {
     height: 470px;
     background-position: top;
     background-size: cover;
   }
-  .logo{
+  .logo {
     top: 14px;
     left: 30px;
   }
-  ul{
+  ul {
     left: 175px;
     top: -47px;
   }
-  .copywrite{
+  .copywrite {
     right: 30px;
   }
-  .wrapper{
+  .wrapper {
     padding: 40px 30px 30px 30px;
   }
-  section .desc h3{
+  section .desc h3 {
     padding-top: 0;
     padding-bottom: 30px;
     font-size: 36px;
   }
-  section .desc p{
+  section .desc p {
     font-weight: 500;
   }
-  section .desc h3.info{
+  section .desc h3.info {
     padding-bottom: 40px;
   }
-  main{
+  main {
     padding-left: 47px;
     padding-right: 44px;
   }
-  main h2{
+  main h2 {
     padding-top: 20px;
     padding-bottom: 10px;
   }
   main > p {
     font-size: 23px;
   }
-  main p:last-child{
+  main p:last-child {
     padding-bottom: 46px;
   }
-  main p.diet{
+  main p.diet {
     left: 137px;
   }
   main .amount {
     margin-bottom: 10px;
-}
-  main .line{
+  }
+  main .line {
     width: 785px;
   }
-  main .circle-8{
+  main .circle-8 {
     display: none;
   }
-  main .price:first-child{
+  main .price:first-child {
     display: none;
   }
   main .price:nth-child(2) {
     margin-left: 0px;
-}
-  .flexible{
+  }
+  .flexible {
     padding: 40px 30px 50px 30px;
   }
-  .footer-item li{
+  .footer-item li {
     margin-right: 48px;
   }
-  .flexible .end{
+  .flexible .end {
     width: 355px;
     position: relative;
     bottom: -3px;
     padding-bottom: 0;
   }
-  .flexible .footer-item:first-child{
+  .flexible .footer-item:first-child {
     height: 365px;
   }
-  .flexible .footer-item:last-child{
+  .flexible .footer-item:last-child {
     width: 310px;
   }
-  .flexible .logo{
+  .flexible .logo {
     margin-bottom: 88px;
     top: 0px;
   }
-  .flexible form{
+  .flexible form {
     position: relative;
     right: 112px;
     width: 394px;
   }
-  .flexible .designed{
+  .flexible .designed {
     position: relative;
     width: 238px;
     right: 88px;
     top: 20px;
   }
-
 }
 
-
-
-
-
 @media screen and (max-width: 999px) {
-    .container,
-    .wrapper,
-    footer {
-      max-width: 640px;
-      margin: 0 auto;
-    }
-    .navi{
-      height: 34px;
-    }
-    h1{
-      font-size: 12px;
-    }
-    .logo{
+  .container,
+  .wrapper,
+  footer {
+    max-width: 640px;
+    margin: 0 auto;
+  }
+  .navi {
+    height: 34px;
+  }
+  h1 {
+    font-size: 12px;
+  }
+  .logo {
     border: none;
     width: 47px;
     position: relative;
     top: 12px;
     left: 20px;
-    }
+  }
 
-    /***************************/
+  /***************************/
 
-    .top-nav {
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      justify-content: space-between;
-      background-color: #00baf0;
-      background: #000;
-      color: #fff;
-      height: 34px;
-      position: fixed;
-      width: 640px;
-      z-index: 1;
-      position: fixed;
-    }
+  .top-nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #00baf0;
+    background: #000;
+    color: #fff;
+    height: 34px;
+    position: fixed;
+    width: 640px;
+    z-index: 1;
+    position: fixed;
+  }
 
-    .menu > li {
-      margin: 0 1rem;
-      overflow: hidden;
-    }
+  .menu > li {
+    margin: 0 1rem;
+    overflow: hidden;
+  }
 
-    .menu-button-container {
-      display: none;
-      height: 100%;
-      width: 30px;
-      cursor: pointer;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      margin-right: 20px;
-    }
-    #menu-toggle {
-      display: none;
-    }
-    .menu-button,
-    .menu-button::before,
-    .menu-button::after {
-      display: block;
-      background-color: #fff;
-      position: absolute;
-      height: 4px;
-      width: 30px;
-      transition: transform 400ms cubic-bezier(0.23, 1, 0.32, 1);
-      border-radius: 2px;
-    }
-    .menu-button::before {
-      content: '';
-      margin-top: -8px;
-    }
-    .menu-button::after {
-      content: '';
-      margin-top: 8px;
-    }
-    #menu-toggle:checked + .menu-button-container .menu-button::before {
-      margin-top: 0px;
-      transform: rotate(405deg);
-    }
-    #menu-toggle:checked + .menu-button-container .menu-button {
-      background: rgba(255, 255, 255, 0);
-    }
-    #menu-toggle:checked + .menu-button-container .menu-button::after {
-      margin-top: 0px;
-      transform: rotate(-405deg);
-    }
-    .menu-button-container {
-      display: flex;
-      left: 314px;
-      position: relative;
-      margin-right: 0;
-    }
-    .menu {
-      position: absolute;
-      top: -16px;
-      margin-top: 50px;
-      left: auto;
-      right: auto;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      width: 640px;
-    }
-    #menu-toggle ~ .menu li {
-      height: 0;
-      margin: 0;
-      padding: 0;
-      border: 0;
-      transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
-    }
-    #menu-toggle:checked ~ .menu li {
-      border: 1px solid #333;
-      height: 2.5em;
-      padding: 0.5em;
-      transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
-    }
-    .menu > li {
-      display: flex;
-      justify-content: center;
-      margin: 0;
-      padding: 0.5em 0;
-      width: 100%;
-      color: white;
-      background-color: #000;
-      border-radius: 5px;
-    }
-    .menu > li:not(:last-child) {
-      border-bottom: 1px solid #444;
-    }
+  .menu-button-container {
+    display: none;
+    height: 100%;
+    width: 30px;
+    cursor: pointer;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+  }
+  #menu-toggle {
+    display: none;
+  }
+  .menu-button,
+  .menu-button::before,
+  .menu-button::after {
+    display: block;
+    background-color: #fff;
+    position: absolute;
+    height: 4px;
+    width: 30px;
+    transition: transform 400ms cubic-bezier(0.23, 1, 0.32, 1);
+    border-radius: 2px;
+  }
+  .menu-button::before {
+    content: '';
+    margin-top: -8px;
+  }
+  .menu-button::after {
+    content: '';
+    margin-top: 8px;
+  }
+  #menu-toggle:checked + .menu-button-container .menu-button::before {
+    margin-top: 0px;
+    transform: rotate(405deg);
+  }
+  #menu-toggle:checked + .menu-button-container .menu-button {
+    background: rgba(255, 255, 255, 0);
+  }
+  #menu-toggle:checked + .menu-button-container .menu-button::after {
+    margin-top: 0px;
+    transform: rotate(-405deg);
+  }
+  .menu-button-container {
+    display: flex;
+    left: 314px;
+    position: relative;
+    margin-right: 0;
+  }
+  .menu {
+    position: absolute;
+    top: -16px;
+    margin-top: 50px;
+    left: auto;
+    right: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 640px;
+  }
+  #menu-toggle ~ .menu li {
+    height: 0;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
+  }
+  #menu-toggle:checked ~ .menu li {
+    border: 1px solid #333;
+    height: 2.5em;
+    padding: 0.5em;
+    transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
+  }
+  .menu > li {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0.5em 0;
+    width: 100%;
+    color: white;
+    background-color: #000;
+    border-radius: 5px;
+  }
+  .menu > li:not(:last-child) {
+    border-bottom: 1px solid #444;
+  }
 
-    /***************************/
+  /***************************/
 
-
-    header {
-      height: 369px;
-    }
-    .wrapper{
-        padding: 30px 20px 46px 20px;
-    }
-    section .desc h3{
-      font-size: 22px;
-      line-height: 28px;
-      padding-bottom: 20px;
-    }
-    section .desc p{
-      margin-bottom: 30px;
-    }
-    section .desc h3.info{
-      font-size: 36px;
-      padding-bottom: 30px;
-    }
-    main{
-      padding: 30px 0;
-    }
-    main h2{
-      padding-top: 0;
-      padding-bottom: 20px;
-    }
-    main > p{
-      font-size: 24px;
-      padding-bottom: 50px;
-    }
-    main p.diet {
+  header {
+    height: 369px;
+  }
+  .wrapper {
+    padding: 30px 20px 46px 20px;
+  }
+  section .desc h3 {
+    font-size: 22px;
+    line-height: 28px;
+    padding-bottom: 20px;
+  }
+  section .desc p {
+    margin-bottom: 30px;
+  }
+  section .desc h3.info {
+    font-size: 36px;
+    padding-bottom: 30px;
+  }
+  main {
+    padding: 30px 0;
+  }
+  main h2 {
+    padding-top: 0;
+    padding-bottom: 20px;
+  }
+  main > p {
+    font-size: 24px;
+    padding-bottom: 50px;
+  }
+  main p.diet {
     left: 12px;
-    }
-    main .amount{
-      margin-left: 10px;
-    }
-    main .line{
-      width: 524px;
-    }
-    main .circle-6,
-    main .circle-7{
-      display: none;
-    }
-    main .price:nth-child(2),
-    main .price:nth-child(3){
-      display: none;
-    }
-    main .price:nth-child(4) {
-      margin-left: 5px;
-    }
-    main p:last-child{
-      padding-bottom: 0px;
-    }
-    .flexible{
-      padding: 12px 0px 0px 20px;
-    }
-    .flexible .logo{
+  }
+  main .amount {
+    margin-left: 10px;
+  }
+  main .line {
+    width: 524px;
+  }
+  main .circle-6,
+  main .circle-7 {
+    display: none;
+  }
+  main .price:nth-child(2),
+  main .price:nth-child(3) {
+    display: none;
+  }
+  main .price:nth-child(4) {
+    margin-left: 5px;
+  }
+  main p:last-child {
+    padding-bottom: 0px;
+  }
+  .flexible {
+    padding: 12px 0px 0px 20px;
+  }
+  .flexible .logo {
     width: 82px;
     height: 52px;
     border: 1px solid #fff;
   }
-  .foo-logo span{
+  .foo-logo span {
     position: relative;
     left: 10px;
     top: 5px;
   }
-  .foo-logo div{
+  .foo-logo div {
     display: inline-block;
     position: relative;
     left: 18px;
     top: 5px;
   }
-  .flexible .logo{
+  .flexible .logo {
     margin-bottom: 32px;
   }
-  .flexible .end{
+  .flexible .end {
     bottom: 7px;
     left: -298px;
   }
-  .foo, footer{
+  .foo,
+  footer {
     height: 282px;
   }
-  .footer-item form{
+  .footer-item form {
     display: none;
   }
-  .network{
+  .network {
     margin-bottom: 20px;
   }
-   .network a > span{
+  .network a > span {
     display: none;
   }
-  .social{
+  .social {
     display: inline-block;
     width: 26px;
     position: relative;
     left: 574px;
     bottom: 182px;
   }
-  .flexible .designed{
+  .flexible .designed {
     position: relative;
     width: 238px;
     right: 70px;
     top: -3px;
   }
   .footer-item li,
-  .footer-item a{
+  .footer-item a {
     margin-right: 36px;
   }
   .flexible .footer-item:first-child {
     height: 268px;
-}
-.flexible .footer-item:last-child {
-  position: relative;
-  left: -350px;
-}
+  }
+  .flexible .footer-item:last-child {
+    position: relative;
+    left: -350px;
+  }
 }
 
-   @media screen and (max-width: 639px) {
-    .container,
-    section {
-      width: 320px;
-      margin: 0 auto;
-    }
+@media screen and (max-width: 639px) {
+  .container,
+  section,
+  .top-nav,
+  .wrapper,
+  footer {
+    width: 320px;
+    margin: 0 auto;
+  }
+  .menu-button-container {
+    left: 162px;
+  }
+  header {
+    height: 221px;
+  }
+  .menu {
+    width: 320px;
+  }
+  .wrapper {
+    padding: 30px 10px;
+  }
+  .desc p {
+    line-height: 22px;
+  }
+  section .desc h3.info {
+    font-size: 24px;
+  }
+  main h2 {
+    font-size: 24px;
+    padding-bottom: 10px;
+  }
+  main > p {
+    font-size: 16px;
+    padding-bottom: 10px;
+  }
+  main .quantity p:nth-child(1) {
+    font-size: 40px;
+    margin-right: 0;
+    margin-left: 26px;
+  }
+  main .quantity img:last-child {
+    height: 138px;
+    margin-left: 0;
+  }
+  main .quantity img.x {
+    margin-left: 28px;
+    margin-right: 36px;
+    width: 8px;
+    height: 8px;
+  }
+  main p.diet {
+    font-size: 9px;
+    bottom: 53px;
+    left: 0px;
+  }
+  main .quantity {
+    padding-bottom: 0px;
+  }
+  main .line {
+    width: 240px;
+    margin-left: 25px;
+  }
+  main .circle-2 {
+    margin-left: 60px;
+  }
+  main .circle-3 {
+    margin-left: 120px;
+  }
+  main .circle-4 {
+    margin-left: 180px;
+  }
+  main .circle-5 {
+    margin-left: 240px;
+  }
+  main .price span {
+    font-size: 13px;
+    font-weight: 400;
+  }
+  main .price:nth-child(4) {
+    margin-left: 12px;
+  }
+  main .price:nth-child(5) {
+    margin-left: 28px;
+  }
+  main .price:nth-child(6) {
+    margin-left: 26px;
+  }
+  main .price:nth-child(7) {
+    margin-left: 30px;
+  }
+  main .price:nth-child(8) {
+    margin-left: 35px;
+  }
+  main .price {
+    margin-top: 10px;
+  }
+  .input-number input {
+    width: 180px;
+    height: 42px;
+  }
+  main .cost {
+    margin-bottom: 25px;
+  }
+  main {
+    padding-bottom: 20px;
+  }
+  .flexible {
+    padding: 0;
+  }
+  .flexible .logo {
+    border: none;
+    width: 128px;
+    height: 23px;
+    margin: 20px auto 30px auto;
+    display: block;
+  }
+  .flexible .logo img {
+    position: relative;
+    top: -18px;
+    left: 80px;
+  }
+  .flexible .btn {
+    margin-left: 10px;
+    position: relative;
+    top: 55px;
+  }
+  .social {
+    display: flex;
+    left: 165px;
+    justify-content: center;
+    top: -99px;
+  }
+  .flexible .footer-item:last-child {
+    width: 215px;
+    position: relative;
+    left: -606px;
+  }
+  .foo {
+    height: 334px;
+  }
+  .flexible .designed {
+    right: 123px;
+  }
+  .flexible .end {
+    bottom: -48px;
+  }
+  .footer-item li {
+    margin-right: 30px;
+  }
+}

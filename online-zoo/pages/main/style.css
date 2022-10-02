@@ -1005,11 +1005,13 @@ footer {
       position: relative;
       left: 140px;
       top: 98px;
+      display: inline-block;
     }
     .green-arrow2 {
       position: relative;
       top: 98px;
       left: 262px;
+      display: inline-block;
     }
     .pick-friend p:nth-child(2) {
       font-size: 16px;
@@ -1210,7 +1212,7 @@ footer {
     .pick-friend p:nth-child(2) {
       font-size: 16px;
       line-height: 22px;
-      margin-bottom: 30px;
+      margin-bottom: 0px;
     }
     .green-arrow1,
     .green-arrow2 {
@@ -1220,11 +1222,13 @@ footer {
       position: relative;
       top: 312px;
       left: 229px;
+      display: inline-block;
     }
     .green-arrow4 {
       position: relative;
       top: 550px;
       left: 200px;
+      display: inline-block;
     }
     .testimonials h3 {
       margin-top: 30px;
