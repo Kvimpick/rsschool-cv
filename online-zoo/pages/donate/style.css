@@ -471,3 +471,130 @@ footer {
   color: #fff;
   line-height: 20px;
 }
+
+@media screen and (max-width: 1599px) {
+  .container,
+  .wrapper,
+  footer {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  section, main{
+    height: auto;
+  }
+   header {
+    height: 470px;
+    background-position: top;
+    background-size: cover;
+  }
+  .logo{
+    top: 14px;
+    left: 30px;
+  }
+  ul{
+    left: 175px;
+    top: -47px;
+  }
+  .copywrite{
+    right: 30px;
+  }
+  .wrapper{
+    padding: 40px 30px 30px 30px;
+  }
+  section .desc h3{
+    padding-top: 0;
+    padding-bottom: 30px;
+    font-size: 36px;
+  }
+  section .desc p{
+    font-weight: 500;
+  }
+  section .desc h3.info{
+    padding-bottom: 40px;
+  }
+  main{
+    padding-left: 47px;
+    padding-right: 44px;
+  }
+  main h2{
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+  main > p {
+    font-size: 23px;
+  }
+  main p:last-child{
+    padding-bottom: 46px;
+  }
+  main p.diet{
+    left: 137px;
+  }
+  main .amount {
+    margin-bottom: 10px;
+}
+  main .line{
+    width: 785px;
+  }
+  main .circle-8{
+    display: none;
+  }
+  main .price:first-child{
+    display: none;
+  }
+  main .price:nth-child(2) {
+    margin-left: 0px;
+}
+  .flexible{
+    padding: 40px 30px 50px 30px;
+  }
+  .footer-item li{
+    margin-right: 48px;
+  }
+  .flexible .end{
+    width: 355px;
+    position: relative;
+    bottom: -3px;
+    padding-bottom: 0;
+  }
+  .flexible .footer-item:first-child{
+    height: 365px;
+  }
+  .flexible .footer-item:last-child{
+    width: 310px;
+  }
+  .flexible .logo{
+    margin-bottom: 88px;
+    top: 0px;
+  }
+  .flexible form{
+    position: relative;
+    right: 112px;
+    width: 394px;
+  }
+  .flexible .designed{
+    position: relative;
+    width: 238px;
+    right: 88px;
+    top: 20px;
+  }
+
+}
+
+
+
+
+
+@media screen and (max-width: 999px) {
+    .container {
+      max-width: 640px;
+      margin: 0 auto;
+    }
+  }
+
+
+   @media screen and (max-width: 639px) {
+    .container,
+    section {
+      width: 320px;
+      margin: 0 auto;
+    }
