@@ -10,24 +10,27 @@
 <body>
     <div class="container">
         <header>
-                    <div class="navi">
+                    <div class="navi top-nav">
                         <div class="logo">
                             <a href="#">
                                 <h1>PetStory online</h1>
                                 <img src='./../../assets/images/bamboo.png'>
                             </a>
                         </div>
-                        <nav>
-                            <ul>
+                        <input id="menu-toggle" type="checkbox" />
+                        <label class='menu-button-container' for="menu-toggle">
+                            <div class='menu-button'></div>
+                        </label>
+                        
+                            <ul class="menu">
                                 <li class='active'>About</li>
                                 <li>Map</li>
                                 <li>Zoos</li>
-                                <a href="../donate/index.html">
-                                    <li>Donate</li>
-                                </a>
+                                <li><a href="../donate/index.html">Donate</a></li>
                                 <li>Contact us</li>
+                                <li><a href='https://www.figma.com/file/jfEFwkXVj1WRq7sUHDr8os/PetStory-online'>Designed by &#169</a></li>
                             </ul>
-                        </nav>
+                        
                         <div class="copywrite">
                             <a href='https://www.figma.com/file/jfEFwkXVj1WRq7sUHDr8os/PetStory-online'>Designed by &#169</a>
                         </div>
@@ -37,7 +40,7 @@
                     <button class="btn" type="button">Watch online</button>
         </header>
     </div>
-    <div class="container">
+    <div class="container back">
                 <section>
                     <article class="backstage">
                         <img src="./../../assets/images/bamboo-cap.png">
@@ -152,17 +155,21 @@
             gift to our <a href="./../donate/index.html">Emergency Support Fund</a> .</p>
             <img class = 'arrow1' src="./../../assets/images/arrow.svg" alt = 'arrow'>
             <img class = 'arrow2' src="./../../assets/images/arrow.svg" alt = 'arrow'>
+            <img class = 'green-arrow1' src="./../../assets/images/green-arrow.png" alt = 'arrow'>
+            <img class = 'green-arrow2' src="./../../assets/images/green-arrow.png" alt = 'arrow'>
+            <img class = 'green-arrow3' src="./../../assets/images/green-arrow3.png" alt = 'arrow'>
+            <img class = 'green-arrow4' src="./../../assets/images/green-arrow3.png" alt = 'arrow'>
             <h3>How it works</h3>
             <div class="feed-friend">
-                <div class="item">
+                <div class="item item-1">
                     <div class="img"><img src="./../../assets/images/pay.svg"></div>
                     <p>Pay with card</p>
                 </div>
-                <div class="item">
+                <div class="item item-2">
                     <div class="img"><img src="./../../assets/images/zoo.svg"></div>
                     <p>Payment goes to the zoo</p>
                 </div>
-                <div class="item">
+                <div class="item item-3">
                     <div class="img"><img src="./../../assets/images/monkey.svg"></div>
                     <p>Your favourite animal gets delicious dish</p>
                 </div>
@@ -185,12 +192,12 @@
                         </div>
                     </div>
                     <div class="desc">
-                        <p>The best online zoo I’ve met. My son delighted very much ljves to watch gouillas. Online zoo is one jf the ways to
+                        <p>The best online zoo I’ve met. My son delighted very much ljves to watch <span>gouillas. Online zoo is one jf the ways to
                         instill a love for animals.The best online zoo I’ve met. My son delighted very much ljves to watch gouillas. Online zoo
                         is one jf the ways to instill a love for animals.
                         The best online zoo I’ve met. My son delighted very much ljves to watch gouillas. Online zoo is one jf the ways to
                         instill a love for animals.The best online zoo I’ve met. My son delighted very much ljves to watch gouillas. Online zoo
-                        is one jf the ways to instill a love for</p>
+                        is one jf the ways to instill a love for</span></p>
                     </div>
                 </div>
                 <div class="items">
@@ -204,12 +211,12 @@
                         </div>
                     </div>
                     <div class="desc">
-                        <p>Online zoo is one jf the ways to instill a love for animals.The best online zoo I’ve met. My son delighted very much
+                        <p>Online zoo is one jf the ways to instill a love for animals.The best online zoo I<span>’ve met. My son delighted very much
                         ljves to watch gouillas. Online zoo is one jf the ways to instill a love for animals.The best online zoo I’ve met. My
                         son delighted very much ljves to watch gouillas.
                         The best online zoo I’ve met. My son delighted very much ljves to watch gouillas. Online zoo is one jf the ways to
                         instill a love for animals.The best online zoo I’ve met. My son delighted very much ljves to watch gouillas. Online zoo
-                        is one jf the ways to instill a love for</p>
+                        is one jf the ways to instill a love for</span></p>
                     </div>
                 </div>
                 <div class="items">
@@ -223,12 +230,12 @@
                         </div>
                     </div>
                     <div class="desc">
-                        <p>The best online zoo I’ve met. My son delighted very much ljves to watch gouillas. Online zoo is one jf the ways to
+                        <p>The best online zoo I’ve met. My son delighted very much ljves to watch gouillas. On<span>line zoo is one jf the ways to
                         instill a love for animals.The best online zoo I’ve met. My son delighted very much ljves to watch gouillas. Online zoo
                         is one jf the ways to instill a love for animals.
                         The best online zoo I’ve met. My son delighted very much ljves to watch gouillas. Online zoo is one jf the ways to
                         instill a love for animals.The best online zoo I’ve met.
-                        The best online zoo I’ve met. My son delighted very much ljves to</p>
+                        The best online zoo I’ve met. My son delighted very much ljves to</span></p>
                     </div>
                 </div>
                 <div class="items">
@@ -263,8 +270,9 @@
             <div class="flexible">
                             <div class="footer-item">
                                 <div class="logo">
-                                    <a href="#">
-                                        <h1>PetStory online</h1>
+                                    <a href="#" class="foo-logo">
+                                        <span>PetStory</span>
+                                        <div>online</div>
                                         <img src='./../../assets/images/bamboo.png'>
                                     </a>
                                 </div>
@@ -272,22 +280,22 @@
                                 <div class="social">
                                     <div class="network">
                                         <a href="https://www.facebook.com/">
-                                            <div class='circle-item'><img src="./../../assets/images/facebook.svg" alt='facebook'></div> Facebook
+                                            <div class='circle-item'><img src="./../../assets/images/facebook.svg" alt='facebook'></div> <span>Facebook</span>
                                         </a>
                                     </div>
                                     <div class="network">
                                         <a href="https://twitter.com/">
-                                            <div class='circle-item'><img src="./../../assets/images/twitter.svg" alt="twitter"></div> Twitter
+                                            <div class='circle-item'><img src="./../../assets/images/twitter.svg" alt="twitter"></div> <span>Twitter</span>
                                         </a>
                                     </div>
                                     <div class="network">
                                         <a href="https://www.instagram.com/">
-                                            <div class='circle-item'><img src="./../../assets/images/insta.svg" alt="instagram"></div> Instagram
+                                            <div class='circle-item'><img src="./../../assets/images/insta.svg" alt="instagram"></div> <span>Instagram</span>
                                         </a>
                                     </div>
                                     <div class="network">
                                         <a href="https://youtube.com/">
-                                            <div class='circle-item'><img src="./../../assets/images/youtube.svg" alt="youtube"></div> Youtube
+                                            <div class='circle-item'><img src="./../../assets/images/youtube.svg" alt="youtube"></div> <span>Youtube</span>
                                         </a>
                                     </div>
                             
