@@ -1124,6 +1124,12 @@ footer {
     .pick-friend {
       width: 320px;
     }
+    .pick-friend{
+      padding-bottom: 40px;
+    }
+    .pick-friend .btn{
+      margin-top: 30px;
+    }
     .circle {
       width: 119px;
       height: 119px;
@@ -1201,6 +1207,8 @@ footer {
     }
     .pick-friend h3 {
       font-size: 24px;
+      margin-bottom: 20px;
+    margin-top: 20px;
     }
     .feed-friend {
       flex-direction: column;
@@ -1209,26 +1217,37 @@ footer {
     .img {
       margin-bottom: 10px;
     }
+    .pick-friend .item-1,
+    .pick-friend .item-2{
+      margin-bottom: 20px;
+    }
+    .pick-friend .item p{
+      height: 44px;
+    margin-bottom: 9px;
+    }
+    .pick-friend .item p:nth-child(2){
+      margin-bottom: 0px;
+    }
     .pick-friend p:nth-child(2) {
       font-size: 16px;
       line-height: 22px;
-      margin-bottom: 0px;
+      margin-bottom: 29px;
     }
     .green-arrow1,
     .green-arrow2 {
       display: none;
     }
     .green-arrow3 {
-      position: relative;
-      top: 312px;
-      left: 229px;
+      position: absolute;
+      top: 390px;
+    left: 250px;
       display: inline-block;
     }
     .green-arrow4 {
-      position: relative;
-      top: 550px;
-      left: 200px;
       display: inline-block;
+      position: absolute;
+      top: 630px;
+    left: 249px;
     }
     .testimonials h3 {
       margin-top: 30px;
